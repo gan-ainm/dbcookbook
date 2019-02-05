@@ -30,7 +30,7 @@
     <abstract>
       <para>DocBook files can be created manually or by tools.
         Sometimes tools create a structure which is inconvenient for
-        some reasons or you have legacy documents which contain the
+        some reasons or you have legacy documents that contain the
           <quote>wrong</quote> structure. This chapter shows how to
         restructure your DocBook document in the way you want.</para>
       <para >
@@ -42,12 +42,12 @@
   <section xml:id="dbc.structure.intro">
     <title>Introduction</title>
     <para>The methods described in this chapter are mostly XSLT
-      solutions where you can find more or less in any XSLT book.
-      Actually, some ideas origin from
+      solutions that you can find more or less in any XSLT book.
+      Actually, some ideas originate from
           <personname><firstname>Sal</firstname>
             <surname>Mangano</surname></personname>´s excellent
         <citetitle>XSLT Cookbook</citetitle>. However, the solutions in
-      this chapter are targeted exclusively on DocBook.</para>
+      this chapter are targeted exclusively at DocBook.</para>
     <para>Most of these solutions are based on an <emphasis>identity
     transformation</emphasis> stylesheet which is shown in <xref
       linkend="ex.copy.xsl"/>.</para>
